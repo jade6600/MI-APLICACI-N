@@ -33,6 +33,46 @@ def abrir_toplevel_ventana3():
     toplevel_ventana3.geometry("300x200")
     toplevel_ventana3.config(bg="white")
 
+def abrir_toplevel_ventana4():
+    global toplevel_ventana4
+    toplevel_ventana4 = Toplevel()
+    toplevel_ventana4.title("Centigrados")
+    toplevel_ventana4.resizable(False, False)
+    toplevel_ventana4.geometry("300x200")
+    toplevel_ventana4.config(bg="white")
+
+def abrir_toplevel_ventana5():
+    global toplevel_ventana5
+    toplevel_ventana5 = Toplevel()
+    toplevel_ventana5.title("Centigrados")
+    toplevel_ventana5.resizable(False, False)
+    toplevel_ventana5.geometry("300x200")
+    toplevel_ventana5.config(bg="white")
+
+def abrir_toplevel_ventana6():
+    global toplevel_ventana6
+    toplevel_ventana6 = Toplevel()
+    toplevel_ventana6.title("Centigrados")
+    toplevel_ventana6.resizable(False, False)
+    toplevel_ventana6.geometry("300x200")
+    toplevel_ventana6.config(bg="white")
+
+def abrir_toplevel_ventana7():
+    global toplevel_ventana6
+    toplevel_ventana7 = Toplevel()
+    toplevel_ventana7.title("Centigrados")
+    toplevel_ventana7.resizable(False, False)
+    toplevel_ventana7.geometry("300x200")
+    toplevel_ventana7.config(bg="white")
+
+def abrir_toplevel_ventana8():
+    global toplevel_ventana3
+    toplevel_ventana8 = Toplevel()
+    toplevel_ventana8.title("Centigrados")
+    toplevel_ventana8.resizable(False, False)
+    toplevel_ventana8.geometry("300x200")
+    toplevel_ventana8.config(bg="white")
+
 # salir
 def salir():
     messagebox.showinfo("Temperatura 1.0", "La app se va a cerrar")
@@ -66,6 +106,26 @@ bt_ventana1.place(x=10, y=230)
 # boton para abrir Toplevel ventana3
 bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
 bt_ventana3.place(x=10, y=270)
+
+# boton para abrir Toplevel ventana4
+bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
+bt_ventana3.place(x=10, y=310)
+
+# boton para abrir Toplevel ventana5
+bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
+bt_ventana3.place(x=10, y=350)
+
+# boton para abrir Toplevel ventana6
+bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
+bt_ventana3.place(x=10, y=390)
+
+# boton para abrir Toplevel ventana7
+bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
+bt_ventana3.place(x=10, y=430)
+
+# boton para abrir Toplevel ventana8
+bt_ventana3 = Button(ventana, text="Familia", command=abrir_toplevel_ventana3)
+bt_ventana3.place(x=10, y=470)
 
 menu_convertir = Menu(tearoff=0)
 menu_convertir.add_command(label="Opciones")
