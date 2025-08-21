@@ -9,7 +9,6 @@ ventana.title("Todo de la vida de Soreth")
 ventana.geometry("800x600")
 ventana.config(bg="violet")
 
-
 # abrir toplevel centigrados
 def abrir_toplevel_ventana1():
     global toplevel_ventana1
