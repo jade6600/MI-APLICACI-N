@@ -97,11 +97,11 @@ def abrir_toplevel_ventana9():
 def abrir_toplevel_ventana10():
     global toplevel_ventana10
     toplevel_ventana10= Toplevel()
-    toplevel_ventana10.title("serie fav")
+    toplevel_ventana10.title("Mi experiencia en el guanentá")
     toplevel_ventana10.resizable(False, False)
-    toplevel_ventana10.geometry("800x600")
+    toplevel_ventana10.geometry("500x400")
     toplevel_ventana10.config(bg="white")
-    Label(toplevel_ventana10, text="Rebelde Way es una telenovela juvenil argentina creada por Cris Morena, emitida entre 2002 y 2003.\nLa historia transcurre principalmente en el Elite Way School,\nun colegio privado de prestigio donde conviven adolescentes de familias ricas con becados de origen humilde.\nLos protagonistas son Mía Colucci, Marizza Pía Spirito,\nPablo Bustamante y Manuel Aguirre,\nquienes al principio tienen choques por sus diferencias sociales y de carácter\n pero terminan formando una profunda amistad.\nLos cuatro crean una banda musical llamada Erreway, que se convierte en una parte clave de sus vidas\ny de la serie, ya que a través de la música expresan sus sentimientos,\nsueños y rebeldía.\nA lo largo de la trama se abordan temas típicos de la adolescencia como la amistad, el primer amor, los conflictos familiares,\nlas injusticias sociales,\nla identidad y la búsqueda de independencia.\nTambién aparecen intrigas escolares\n rivalidades, romances cruzados y enfrentamientos con adultos que representan la autoridad.\nLa serie tuvo 2 temporadas (318 capítulos en total)\ny marcó a toda una generación en varios países, siendo la base de adaptaciones posteriores como la mexicana Rebelde (RBD).", bg="white").pack(pady=50)
+    Label(toplevel_ventana10, text="En este colegio al principi fue un poco diferente a todos los demas\npero no me tomo mucho tiempo acostumbrarme,\nonocí personas que hasta la fecha\naun son mis amigos\n ademas de que me gusta mucho las dinámicas del colegio.", bg="white").pack(pady=50)
 
 # salir
 def salir():
@@ -153,7 +153,7 @@ bt_ventana3 = Button(ventana, text="Proyecto de vida", command=abrir_toplevel_ve
 bt_ventana3.place(x=10, y=510)
 
 # boton para abrir Toplevel ventana10
-bt_ventana3 = Button(ventana, text="Mi serie fav", command=abrir_toplevel_ventana10)
+bt_ventana3 = Button(ventana, text="Guanentá", command=abrir_toplevel_ventana10)
 bt_ventana3.place(x=10, y=550)
 
 
