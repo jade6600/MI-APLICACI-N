@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-from tkinter import ttk
+
 #------------------------------------------------------
 # ventana principal
 #------------------------------------------------------
@@ -18,7 +18,7 @@ def abrir_toplevel_ventana1():
     toplevel_ventana1.resizable(False, False)
     toplevel_ventana1.geometry("400x300")
     toplevel_ventana1.config(bg="white")
-    Label(toplevel_ventana1, text="Nací el 3 de Mayo del 2010(Acepto regalos)\nBucaramanga-Santander\nen el hosipital Universitario de Santander\n A las 2:15am", bg="white").pack(pady=50)
+    Label(toplevel_ventana1, text="Nací el 3 de Mayo del 2010\nBucaramanga-Santander\nen el hosipital Universitario de Santander\n A las 2:15am", bg="white").pack(pady=50)
 
 
 def abrir_toplevel_ventana2():
@@ -28,7 +28,7 @@ def abrir_toplevel_ventana2():
     toplevel_ventana2.resizable(False, False)
     toplevel_ventana2.geometry("400x300")
     toplevel_ventana2.config(bg="white")
-    Label(toplevel_ventana2, text="Tipo de sangre: A+\n EPS: Nueva EPS\nEstatura:1,61m\nPeso:No sea sapo ", bg="white").pack(pady=50)
+    Label(toplevel_ventana2, text="Tipo de sangre: A+\n EPS: Nueva EPS\nEstatura:1,61m\n ", bg="white").pack(pady=50)
 
 
 def abrir_toplevel_ventana3():
